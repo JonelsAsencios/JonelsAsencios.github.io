@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14365c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="estilos.css?v=202610102206">
+  <title>Jonels Asencios | Educación, música y tecnología accesible</title>
+  <meta name="description" content="Jonels Asencios: licenciado en educación, auxiliar técnico en música y guitarrista. Publicaciones sobre música, producción musical accesible, informática accesible, celulares, Braille y programación.">
+  <meta name="author" content="Jonels Asencios">
+</head>
+<body data-pagina="inicio">
+  <div id="cabecera"></div>
+
+  <main id="contenido" tabindex="-1">
+    <section class="portada" aria-labelledby="titulo-inicio">
+      <div class="contenedor">
+        <p class="antetitulo">Educación · Música · Tecnología accesible</p>
+        <h1 id="titulo-inicio">Jonels Asencios</h1>
+        <p class="lema">Comparto lo que enseño para que todas las personas puedan aprender, crear y hacer música con autonomía.</p>
+        <div class="acciones">
+          <a class="boton" href="#areas">Explorar las áreas</a>
+          <div id="compartir-inicio"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="areas" class="franja franja-suave" aria-labelledby="titulo-areas">
+      <div class="contenedor">
+        <h2 id="titulo-areas">Áreas</h2>
+        <p class="subtitulo-seccion">Elige un área para ver todas sus publicaciones.</p>
+        <ul id="lista-areas" class="tarjetas"></ul>
+      </div>
+    </section>
+
+    <section id="publicaciones" class="franja" aria-labelledby="titulo-publicaciones">
+      <div class="contenedor">
+        <h2 id="titulo-publicaciones">Publicaciones recientes</h2>
+        <div id="recientes"></div>
+      </div>
+    </section>
+
+    <section id="herramientas" class="franja franja-suave" aria-labelledby="titulo-herramientas">
+      <div class="contenedor">
+        <h2 id="titulo-herramientas">Herramientas</h2>
+        <div id="ultimas-herramientas"></div>
+      </div>
+    </section>
+
+    <section id="novedades" class="franja" aria-labelledby="titulo-novedades">
+      <div class="contenedor">
+        <h2 id="titulo-novedades">Novedades</h2>
+        <div id="ultimas-novedades"></div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="franja franja-suave" aria-labelledby="titulo-sobre-mi">
+      <div class="contenedor sobre-mi">
+        <h2 id="titulo-sobre-mi">Sobre mí</h2>
+        <p>Soy licenciado en educación y auxiliar técnico en música, y actualmente estudio educación musical. Enseño instrumentos de cuerda, de percusión y de viento.</p>
+        <p>También acompaño a personas con discapacidad visual en el uso de la computadora y el celular con lectores de pantalla, en el sistema Braille y en la producción musical accesible. Mi objetivo es que la tecnología sea un puente y no una barrera.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="franja" aria-labelledby="titulo-contacto">
+      <div class="contenedor">
+        <h2 id="titulo-contacto">Contacto</h2>
+        <p>¿Quieres una clase, una capacitación o tienes alguna consulta? Escríbeme con este formulario y el mensaje llegará directo a mi correo.</p>
+        <div id="formulario-contacto"></div>
+        <p>También puedes escribirme a <a href="mailto:contacto@jonelsasencios.com">contacto@jonelsasencios.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="pie"></div>
+  <noscript><p class="contenedor">Para ver las áreas y publicaciones, activa JavaScript en tu navegador.</p></noscript>
+  <script src="configuracion.js?v=202610102206"></script>
+  <script src="publicaciones.js?v=202610102206"></script>
+  <script src="herramientas.js?v=202610102206"></script>
+  <script src="novedades.js?v=202610102206"></script>
+  <script src="comentarios.js?v=202610102206"></script>
+  <script src="sitio.js?v=202610102206"></script>
+</body>
+</html>
