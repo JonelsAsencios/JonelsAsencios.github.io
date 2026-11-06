@@ -1,0 +1,3 @@
+En esta carpeta se guardan los archivos para descargar de la sección Herramientas
+(programas, aplicaciones y complementos propios).
+Límite: 100 MB por archivo. Para archivos más grandes se puede usar "Releases" de GitHub.
